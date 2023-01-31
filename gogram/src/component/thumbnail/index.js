@@ -6,7 +6,7 @@ import "./thumbnail.css"
 export default function Thumbnail({ url, thumbnail }) {
   console.log("url:", url)
   return (
-    <a href={url}>
+    <a href={url} target="_blank">
       {" "}
       <img src={thumbnail} alt="result" />{" "}
     </a>
