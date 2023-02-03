@@ -7,6 +7,7 @@ export default function Search({ handleChange, handleClick }) {
       <div className="logo">
       <img className="logo" src={logo} alt="logo"/>
       </div>
+      <p> Your favourite image-only search engine! </p>
       <div className="search-bar">
       <input type="text" placeholder="search here" onChange={handleChange} />
       <button class="button-82-pushable" 

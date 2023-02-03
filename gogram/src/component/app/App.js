@@ -41,6 +41,7 @@ function App() {
 
   return (
     <div className="app">
+  
       <Search handleChange={(e) => handleChange(e)} handleClick={handleClick} />
       <Results searchResults={searchResults} className="results" />
     </div>
