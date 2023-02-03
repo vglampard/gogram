@@ -1,6 +1,7 @@
-.Results {
+.results {
     background-color: rgb(85, 196, 255);
     border-radius: 20px;
     margin-top: 10px;
-    
+    width: 75vw;
+    padding-left: 75px;
 }

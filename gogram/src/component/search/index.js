@@ -3,7 +3,7 @@ import logo from "./logo.png"
 
 export default function Search({ handleChange, handleClick }) {
   return (
-    <div className="Search">
+    <div className="search">
       <div className="logo">
       <img className="logo" src={logo} alt="logo"/>
       </div>

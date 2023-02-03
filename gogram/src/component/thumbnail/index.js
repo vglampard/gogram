@@ -6,9 +6,9 @@ import "./thumbnail.css"
 export default function Thumbnail({ url, thumbnail }) {
   console.log("url:", url)
   return (
-    <a href={url} target="_blank">
+    <a href={url} target="_blank" rel="noreferrer">
       {" "}
-      <img src={thumbnail} alt="result" />{" "}
+      <img src={thumbnail} alt="result"/>{" "}
     </a>
   );
 }

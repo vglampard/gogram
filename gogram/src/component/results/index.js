@@ -8,9 +8,9 @@ import Thumbnail from "../thumbnail";
 import "./results.css"
 
 export default function Results({ searchResults }) {
-  console.log("SR:", searchResults)
   return(
-    <div className="Results">
+    <div className="results">
+ 
    {searchResults.map((Result, i) => (
     <Thumbnail key={i} url={Result.webpageUrl} thumbnail={Result.thumbnail} />
   ))}

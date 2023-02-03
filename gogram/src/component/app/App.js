@@ -40,9 +40,9 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="app">
       <Search handleChange={(e) => handleChange(e)} handleClick={handleClick} />
-      <Results searchResults={searchResults} />
+      <Results searchResults={searchResults} className="results" />
     </div>
   );
 }
