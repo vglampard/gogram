@@ -6,7 +6,16 @@ export default function Search({ handleChange, handleClick }) {
     <div className="Search">
       <img className="logo" src={logo} alt="logo"/>
       <input type="text" placeholder="search here" onChange={handleChange} />
-      <button onClick={handleClick}> GO </button>
+      <button class="button-82-pushable" 
+        onClick={handleClick}>
+      <span class="button-82-shadow"></span>
+      <span class="button-82-edge"></span>
+      <span class="button-82-front text">
+        GO
+      </span>
+    </button>
     </div>
   );
 }
+
+
